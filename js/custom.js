@@ -12,6 +12,9 @@ $("#menu-toggle").click(function(e) {
 
 // Scrolls to the selected menu item on the page
 $(function() {
+
+    console.log('hello world');
+
     $('a[href*=#]:not([href=#])').click(function() {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
 
