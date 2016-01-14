@@ -17,14 +17,6 @@
 </body>
 </html> -->
 
-      <hr>
-
-      <footer>
-        <p>&copy; SkyStar Studio 2015</p>
-      </footer>
-
-    </div> <!-- /container -->
-
     <!-- Le javascript -->
     <?php wp_footer(); ?>
   </body>

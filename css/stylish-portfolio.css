@@ -16,6 +16,30 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+::-webkit-input-placeholder { /* Safari, Chrome and Opera */
+  color: #337ab7;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: #337ab7;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+  color: #337ab7;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+  color: #337ab7;
+}
+
+::-ms-input-placeholder { /* Edge */
+  color: #337ab7;
+}
+
+:placeholder-shown { /* Standard one last! */
+  color: #337ab7;
+}
+
 .text-vertical-center {
     display: table-cell;
     text-align: center;
@@ -213,6 +237,55 @@ hr.small {
 
 .call-to-action .btn {
     margin: 10px;
+}
+
+/* Contact Us */
+.contact-us {
+    font-family: inherit;
+    font-size: 1.2em;
+    padding: 50px 0;
+}
+
+.contact-us .info ul {
+    padding: 15px;
+    list-style: none;
+}
+
+.contact-us .info ul li {
+    color: #337ab7;
+}
+
+.contact-us .form {
+    background-color: #337ab7;
+    padding: 15px;
+    padding-top: 0;
+}
+
+.contact-us .form fieldset {
+    margin-top: 15px;
+}
+
+.contact-us .form input[type=text],
+.contact-us .form input[type=email],
+.contact-us .form textarea {
+    border: 0;
+    border-radius: 2px;
+    padding: 10px;
+    width: 100%;
+}
+
+.contact-us .form input[type=submit] {
+    float: right;
+}
+
+/* Developers Portfolio */
+
+.developers {
+    padding: 50px 0;
+}
+
+.developers p {
+    font-size: 1.2em;
 }
 
 /* Map */
